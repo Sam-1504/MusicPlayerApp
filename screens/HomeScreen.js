@@ -16,20 +16,6 @@ export default HomeScreen = ({ navigation }) => {
                 style={styles.navigationButton}
                 onPress={() => navigation.navigate('About')}
             >
-                <Text style={styles.text}>Recently played songs</Text>
-                <Text style={styles.text}> &gt; </Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-                style={styles.navigationButton}
-                onPress={() => navigation.navigate('About')}
-            >
-                <Text style={styles.text}>Search for songs, albums, artists</Text>
-                <Text style={styles.text}> &gt; </Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-                style={styles.navigationButton}
-                onPress={() => navigation.navigate('About')}
-            >
                 <Text style={styles.text}>About the Developer</Text>
                 <Text style={styles.text}> &gt; </Text>
             </TouchableOpacity>

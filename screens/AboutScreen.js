@@ -10,11 +10,8 @@ const AboutScreen = () => {
                 />
             </View>
             <Text style={styles.about}>
-                My name is <Text style={{fontWeight: 'bold'}}>Vipul Chitral</Text>,  born and brought up in Delhi, India.
-
-                {'\n\n'} Currently I am studying Software Development at Vanier College in  <Text style={{fontWeight: 'bold'}}>Montreal, Canada.</Text>
-
-                {'\n\n'}I can develop projects on Java, JavaScript,HTML,CSS, C#.
+                Hi, we are team of 2 <Text style={{fontWeight: 'bold'}}>Agrim & Vipul</Text>
+                {'\n\n'}Currently we are studying Software Development at <Text style={{fontWeight: 'bold'}}>Vanier College, Montreal</Text>
             </Text>
         </View>
     )
